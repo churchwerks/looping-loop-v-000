@@ -1,5 +1,10 @@
+require "pry"
 def looping
-	#your code here
+	puts "Wingardium Leviosa"
 end
 
 #call your method here
+loop do
+  looping
+  binding.pry
+end
